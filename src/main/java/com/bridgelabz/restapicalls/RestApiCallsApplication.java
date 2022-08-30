@@ -6,6 +6,7 @@ import org.springframework.util.RouteMatcher;
 @SpringBootApplication
 public class RestApiCallsApplication {
     public static void main(String[] args) {
+        System.out.println("Welcome To Messaging Application Demonstrates REST API Calls ");
         SpringApplication.run(RestApiCallsApplication.class, args);
     }
 
