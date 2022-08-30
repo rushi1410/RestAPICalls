@@ -8,6 +8,6 @@ public class HelloRestController {
 
     @RequestMapping(value = {"", "/", "/home"})
     public String sayHello() {
-        return "Welcome To RestAPI Calls";
+        return "Hello From BridgeLabz";
     }
 }
